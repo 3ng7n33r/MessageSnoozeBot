@@ -1,0 +1,11 @@
+[project]
+name = "messagesnoozebot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "apscheduler>=3.11.2",
+    "discord-py[voice]>=2.6.4",
+    "python-dotenv>=1.2.1",
+]
